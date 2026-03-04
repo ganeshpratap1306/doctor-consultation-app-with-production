@@ -4,7 +4,7 @@ metadata:
   name: backend-deployment
   namespace: doctor-consulting
 spec:
-  replicas: 8
+  replicas: 2
   selector:
     matchLabels:
       app: backend
