@@ -4,7 +4,7 @@ metadata:
   name: frontend-deployment
   namespace: doctor-consulting
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
       app: frontend
